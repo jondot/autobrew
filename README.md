@@ -1,3 +1,5 @@
+![](media/autobrew.png)
+
 # Autobrew
 
 Automate homebrew formula publishing for your CLI tools, regardless of programming language.
