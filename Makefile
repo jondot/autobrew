@@ -1,3 +1,8 @@
+setup:
+	brew install goreleaser/tap/goreleaser
 deps:
 	go mod tidy && go mod vendor
-.PHONY: deps
+release:
+	goreleaser --rm-dist
+
+.PHONY: deps setup release
