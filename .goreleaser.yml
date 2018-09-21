@@ -10,6 +10,12 @@ archive:
     windows: Windows
     386: i386
     amd64: x86_64
+brew:
+  github:
+    owner: jondot
+    name: homebrew-tap
+  homepage:  https://github.com/jondot/autobrew
+  description: Automate homebrew formula publishing for your CLI tools, regardless of programming language.
 checksum:
   name_template: 'checksums.txt'
 snapshot:

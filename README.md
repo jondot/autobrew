@@ -20,6 +20,13 @@ You should have:
 * A Github repo that serves as your Homebrew tap (e.g. [jondot/homebrew-tap](https://github.com/jondot/homebrew-tap))
 * A Github token (set scope to public only, for your open-source projects, which is a good practice)
 
+Install `autobrew` from [Github releases](https://github.com/jondot/autobrew/releases) or with Homebrew:
+
+```
+$ brew tap jondot/tap
+$ brew install autobrew
+```
+
 And now to publish a new Homebrew formula:
 
 ```
